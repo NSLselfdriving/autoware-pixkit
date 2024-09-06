@@ -1,3 +1,23 @@
+# PIXKIT用のAutoware
+
+## セットアップ
+
+- `mkdir src`
+- `vcs import src < autoware.repos`
+- `source /opt/ros/humble/setup.bash`
+- `rosdep install -y --from-paths src --ignore-src --rosdistro $ROS_DISTRO`
+- `colcon build --symlink-install --cmake-args -DCMAKE_BUILD_TYPE=Release`
+
+## 実行
+
+### Planck
+
+Mapは場所に応じて変えること
+
+```
+ros2 launch autoware_launch autoware.launch.xml map_path:=$HOME/autoware_map/yagami12_turn vehicle_model:=pix_planck sensor_model:=pix_planck_sensor_kit
+```
+
 # Autoware - the world's leading open-source software project for autonomous driving
 
 ![Autoware_RViz](https://user-images.githubusercontent.com/63835446/158918717-58d6deaf-93fb-47f9-891d-e242b02cba7b.png)
