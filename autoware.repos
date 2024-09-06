@@ -111,6 +111,8 @@ repositories:
     type: git
     url: https://github.com/autowarefoundation/ros2_socketcan.git
     version: 1.1.0
+
+  # IMU
   sensor_component/external/witmotion_ros:
     type: git
     url: https://github.com/ElettraSciComp/witmotion_IMU_ros.git
@@ -119,7 +121,8 @@ repositories:
     type: git
     url: https://github.com/ElettraSciComp/witmotion_IMU_QT.git
     version: 5c2e86dd2ba7dba76d84e68fa7f65dc3527f5de0
-    
+
+
 # autoware_vehicle
   vehicle/external/pix_driver:
     type: git
@@ -137,10 +140,6 @@ repositories:
     type: git
     url: https://github.com/Keio-CSG/pix_planck_sensor_kit_launch.git
     version: main
-  sensor_component/external/nmea_navsat_driver:
-    type: git
-    url: https://github.com/pixmoving-moveit/nmea_navsat_driver.git
-    version: ros2
   param/autoware_individual_params:
     type: git
     url: https://github.com/pixmoving-moveit/autoware_individual_params.git
