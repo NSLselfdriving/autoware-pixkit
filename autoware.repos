@@ -87,10 +87,6 @@ repositories:
     type: git
     url: https://github.com/MapIV/transport_drivers.git
     version: 5b007e205b60ff3e3f340804dabaccea69f6a917
-  sensor_kit/sample_sensor_kit_launch:
-    type: git
-    url: https://github.com/autowarefoundation/sample_sensor_kit_launch.git
-    version: c21d67ef28ff05c72a19ac3274689c7c6992c2a6
   sensor_kit/external/awsim_sensor_kit_launch:
     type: git
     url: https://github.com/RobotecAI/awsim_sensor_kit_launch.git
